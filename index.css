@@ -1,0 +1,60 @@
+body {
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	color: #ddd;
+	background: #222;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+}
+
+.wrapper {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#game_over {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+	width: 800px;
+	height: 600px;
+	text-align: center;
+}
+
+#game_over a {
+	color: #4c4;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#game_over a:hover {
+	color: #7f7;
+}
+
+.info {
+	position: relative;
+	top: 30%;
+	width: 40%;
+	height: 40%;
+	background: #000;
+	border: 4px solid #800;
+	margin: auto auto;
+}
+
+.info p {
+	color: #800;
+	font-size: 2em;
+}
+/*
+.info p a {
+	font-size: 80%;
+}
+*/
